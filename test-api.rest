@@ -1,0 +1,37 @@
+### root test
+
+GET http://localhost:3000/
+
+### login.signin test
+
+POST http://localhost:3000/signin
+Content-Type: application/json
+
+{
+    "email": "john1@gmail.com",
+    "password": "cookies"
+}
+
+### registration test
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "email": "we@gmail.com",
+    "password": "123",
+    "name": "We"
+}
+
+### Profile id test
+
+GET http://localhost:3000/profile/35
+
+###
+
+PUT http://localhost:3000/image
+Content-Type: application/json
+
+{
+    "id": "1"
+}
